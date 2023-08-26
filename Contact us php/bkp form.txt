@@ -1,0 +1,15 @@
+     <form method="post" action="contact-submit.php" name="contactForm" >
+            <div class="input-box">
+              <input name="username" type="text" placeholder="Enter your name" required/>
+            </div>
+            <div class="input-box">
+              <input name="email" type="email" placeholder="Enter your email" required/>
+            </div>
+            <div class="input-box message-box">
+              <textarea name="message" placeholder="Enter your message"></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" class="button" style=" color: #fff;  font-size: 18px;  outline: none;  border: none;  padding: 8px 16px;  border-radius: 6px;
+  background: #3e2093;  cursor: pointer;  transition: all 0.3s ease;" name="contactsubmit" value="Send Now" />
+            </div>
+          </form>
